@@ -1,0 +1,69 @@
+body {
+  background-color: #dad2c8;
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 1.2em;
+}
+
+x-list {
+  display: block;
+  float: left;
+  max-width: 300px;
+}
+
+x-list .inner {
+  padding: 20px;
+}
+
+x-list .list {
+  margin: 10px 0;
+}
+
+x-item {
+  cursor: pointer;
+  display: block;
+  overflow: hidden;
+  padding: 10px;
+}
+
+x-text {
+  display: block;
+  float: left;
+}
+
+x-text .inner {
+  padding: 20px;
+}
+
+x-text input {
+  background: transparent none;
+  border: 0;
+  display: block;
+  font-size: 1em;
+  margin: 10px 0 0 0;
+  outline: none;
+  padding: 10px;
+  width: 80%;
+}
+
+x-text textarea {
+  background: transparent none;
+  border: 0;
+  display: block;
+  font-size: 1em;
+  margin: 0;
+  outline: none;
+  overflow: hidden;
+  padding: 10px;
+  resize: none;
+  width: 80%;
+}
+
+x-item:hover,
+x-item[selected],
+x-text input:focus,
+x-text input:hover,
+x-text textarea:focus,
+x-text textarea:hover {
+  background-color: #e8e3dc;
+}

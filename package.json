@@ -1,0 +1,16 @@
+{
+  "name": "writer",
+  "description": "Mini writing app.",
+  "version": "0.0.0",
+  "author": "Trey Shugart <treshugart@gmail.com> (http://treshugart.github.io)",
+  "main": "lib/writer.js",
+  "dependencies": {
+    "shadejs": "skatejs/shade#4b981dae21dc175b5b52b165d433a6156e9c5bb6",
+    "skatejs": "skatejs/skatejs#f5aaa790959384c1d377a8342c262ab9680f97b3"
+  },
+  "devDependencies": {
+    "chippy": "0.0.0",
+    "gulp": "^3.8.11",
+    "gulp-auto-task": "0.0.1"
+  }
+}
